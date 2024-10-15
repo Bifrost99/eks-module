@@ -41,7 +41,7 @@ variable "default_tags" {
 
 variable "admin_users" {
   description = "List of Kubernetes admins who will have full control over the cluster. These users will have access to manage the cluster and its resources."
-  default     = ["andrey.demin@gotbit.io"]
+  default     = [""]
 }
 
 variable "developer_users" {
